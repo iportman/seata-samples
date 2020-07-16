@@ -20,7 +20,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
        default-autowire="byName">
 
-    <!-- fescar bean scanner -->
+    <!-- seata bean scanner -->
     <bean class="io.seata.spring.annotation.GlobalTransactionScanner">
         <constructor-arg value="tcc-sample"/>
         <constructor-arg value="my_test_tx_group"/>
